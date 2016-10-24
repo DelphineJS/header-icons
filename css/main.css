@@ -33,6 +33,7 @@ ul {
   text-align: center;
   padding: 0;
   margin: 0;
+  overflow: hidden;
 }
 
 li {
@@ -60,14 +61,32 @@ li {
 
 .home {
   border-right: 1px solid #a63f38;
-  padding: .4rem;
+  padding: .4rem 0;
+  float: left;
+  width: 33%;
 }
 
 .legumes {
   border-left: 1px solid #a63f38;
-  padding: .4rem;
+  padding: .4rem 0;
+  float: left;
+  width: 33%;
 }
 
 .cereals {
-  padding: .4rem;
+  padding: .4rem 0;
+  float: left;
+  width: 33%;
+}
+
+.home:hover {
+  background-color: #a63f38;
+}
+
+.cereals:hover {
+  background-color: #a63f38;
+}
+
+.legumes:hover {
+  background-color: #a63f38;
 }
