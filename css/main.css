@@ -28,6 +28,7 @@ h1 {
 ol {
   text-align: center;
   padding: 0;
+  margin: 0;
 }
 
 li {
@@ -49,4 +50,15 @@ li {
 
 .top-bar {
   border-bottom: 1px solid #a63f38;
+  padding: .4rem 0;
+}
+
+.home {
+  border-right: 1px solid #a63f38;
+  padding: .4rem 0;
+}
+
+.legumes {
+  border-left: 1px solid #a63f38;
+  padding: .4rem 0;
 }
