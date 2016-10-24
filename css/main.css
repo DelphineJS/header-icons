@@ -29,7 +29,7 @@ h1 {
   background-color: #d05c2e;
 }
 
-ul {
+nav ul {
   text-align: center;
   padding: 0;
   margin: 0;
@@ -47,11 +47,13 @@ li {
 
 a {
   text-align: center;
-  display: inline-block;
+  display: block;
   font-size: 1.125rem;
   font-weight: bold;
   color: #fff;
   text-decoration: none;
+  padding: .4rem 0;
+
 }
 
 .right {
@@ -71,32 +73,24 @@ a {
 
 .home {
   border-right: 1px solid #a63f38;
-  padding: .4rem 0;
+  padding: 0;
   float: left;
   width: 33%;
 }
 
 .legumes {
   border-left: 1px solid #a63f38;
-  padding: .4rem 0;
+  padding: 0;
   float: left;
   width: 33%;
 }
 
 .cereals {
-  padding: .4rem 0;
+  padding: 0;
   float: left;
   width: 33%;
 }
 
-.home:hover {
-  background-color: #a63f38;
-}
-
-.cereals:hover {
-  background-color: #a63f38;
-}
-
-.legumes:hover {
+a:hover {
   background-color: #a63f38;
 }
