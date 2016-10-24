@@ -1,0 +1,42 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+  color: #fff;
+  text-align: center;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img {
+  width: 40px;
+}
+
+h1 {
+  display: inline-block;
+  text-align: center;
+}
+
+.orange-box {
+  background-color: #d05c2e;
+}
+
+ol {
+  text-align: center;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  text-align: center;
+  display: inline-block;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
