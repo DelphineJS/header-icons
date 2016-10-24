@@ -1,9 +1,13 @@
 html {
   box-sizing: border-box;
-  font-family: 'Merriweather', serif;
+  font-family: Merriweather, serif;
   color: #fff;
   text-align: center;
   line-height: 1.5;
+}
+
+body {
+  margin: 0;
 }
 
 *, *::before, *::after {
@@ -18,14 +22,14 @@ h1 {
   display: inline-block;
   text-align: center;
   font-size: 2rem;
-  margin: .3rem;
+  margin: .2rem;
 }
 
 .orange-box {
   background-color: #d05c2e;
 }
 
-ol {
+ul {
   text-align: center;
   padding: 0;
   margin: 0;
@@ -36,6 +40,7 @@ li {
   text-align: center;
   display: inline-block;
   font-size: 1.125rem;
+  font-weight: bold;
 }
 
 .right {
@@ -55,10 +60,14 @@ li {
 
 .home {
   border-right: 1px solid #a63f38;
-  padding: .4rem 0;
+  padding: .4rem;
 }
 
 .legumes {
   border-left: 1px solid #a63f38;
-  padding: .4rem 0;
+  padding: .4rem;
+}
+
+.cereals {
+  padding: .4rem;
 }
